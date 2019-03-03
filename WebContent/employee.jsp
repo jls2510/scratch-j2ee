@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 	
-<jsp:useBean id='employee' scope='session' class='main.model.EmployeeBean' />
+<jsp:useBean id='employee' scope='session' class='com.ping23.model.EmployeeBean' />
 <jsp:setProperty name='employee' property='firstName' value='Elvis' />
 <jsp:setProperty name='employee' property='lastName' value='Presley'/>
 <jsp:setProperty name='employee' property='startYear' value='1935'/>
