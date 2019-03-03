@@ -1,4 +1,4 @@
-package main.controller;
+package com.ping23.controller;
 
 import java.io.IOException;
 import javax.servlet.ServletConfig;

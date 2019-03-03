@@ -1,7 +1,7 @@
 /**
  * 
  */
-package test.gamestuff;
+package com.ping23.gamestuff;
 
 import static org.junit.Assert.*;
 
@@ -9,8 +9,6 @@ import org.junit.Test;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
-
-import main.gamestuff.GameNumber;
 
 /**
  * @author jls
@@ -20,7 +18,7 @@ public class TestGameNumber
 {
 
     /**
-     * Test method for {@link main.gamestuff.GameNumber#GameNumber()}.
+     * Test method for {@link GameNumber#GameNumber()}.
      */
     @Test
     public void testGameNumber()
@@ -32,7 +30,7 @@ public class TestGameNumber
     }
 
     /**
-     * Test method for {@link main.gamestuff.GameNumber#GameNumber(int)}.
+     * Test method for {@link GameNumber#GameNumber(int)}.
      */
     @Test
     public void testGameNumberInt()
@@ -44,7 +42,7 @@ public class TestGameNumber
     }
 
     /**
-     * Test method for {@link main.gamestuff.GameNumber#setRandom(int, int)}.
+     * Test method for {@link GameNumber#setRandom(int, int)}.
      */
     @Test
     public void testSetRandom()
@@ -56,7 +54,7 @@ public class TestGameNumber
     }
 
     /**
-     * Test method for {@link main.gamestuff.GameNumber#increment()}.
+     * Test method for {@link GameNumber#increment()}.
      */
     @Test
     public void testIncrement()
@@ -69,7 +67,7 @@ public class TestGameNumber
     }
 
     /**
-     * Test method for {@link main.gamestuff.GameNumber#setValue(int)}.
+     * Test method for {@link GameNumber#setValue(int)}.
      */
     @Test
     public void testSetValue()

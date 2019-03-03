@@ -1,4 +1,6 @@
-package main.controller;
+package com.ping23.controller;
+
+import com.ping23.gamestuff.GameNumber;
 
 import java.io.IOException;
 
@@ -8,8 +10,6 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-import main.gamestuff.GameNumber;
 
 /**
  * Servlet implementation class GameServlet

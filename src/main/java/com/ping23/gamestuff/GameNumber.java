@@ -1,4 +1,4 @@
-package main.gamestuff;
+package com.ping23.gamestuff;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package main.model;
+package com.ping23.model;
 
 import java.io.Serializable;
 
